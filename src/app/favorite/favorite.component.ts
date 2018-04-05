@@ -4,7 +4,6 @@ import { Component, OnInit, Input,Output,EventEmitter   } from '@angular/core';
 @Component({
   selector: 'favorite',
   templateUrl: './favorite.component.html',
-  styleUrls: ['./favorite.component.css'],
   styles: [
     `
     .custom-star1 {
@@ -13,8 +12,10 @@ import { Component, OnInit, Input,Output,EventEmitter   } from '@angular/core';
   .custom-star {
       color: Green;
   }
-    `
-  ]
+    `],
+    styleUrls: ['./favorite.component.css']
+  
+  
 })
 export class FavoriteComponent  {
  @Input('is-select') isSelect: boolean;
