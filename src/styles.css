@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.css';
+
+body { padding: 20px}
+
+.custom-star {
+    background: url('assets/images/star_32.png') no-repeat;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+  }
+  .custom-star1 {
+    background: url('assets/images/star_color_32.png') no-repeat;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+  }
